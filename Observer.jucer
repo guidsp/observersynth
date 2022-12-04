@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="omAMdw" name="Observer" projectType="audioplug" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="0" displaySplashScreen="1" jucerFormatVersion="1"
+              companyName="Laser Brain" pluginFormats="buildStandalone,buildVST3"
+              pluginCharacteristicsValue="pluginIsSynth,pluginWantsMidiIn"
+              pluginName="Observer" pluginManufacturer="Laser Brain" cppLanguageStandard="20">
+  <MAINGROUP id="W07uAB" name="Observer">
+    <GROUP id="{45CA53B2-002E-3043-A299-822454BBE899}" name="Source">
+      <GROUP id="{E775A4DC-9256-229F-7E1C-410BF0FD2E14}" name="Assets">
+        <FILE id="fk9k0p" name="Bell.png" compile="0" resource="1" file="Source/Assets/Bell.png"/>
+        <FILE id="rHgNoX" name="button0.png" compile="0" resource="1" file="Source/Assets/button0.png"/>
+        <FILE id="ZS7z1D" name="button1.png" compile="0" resource="1" file="Source/Assets/button1.png"/>
+        <FILE id="xpY1G1" name="defaultObserverImg.jpg" compile="0" resource="1"
+              file="Source/Assets/defaultObserverImg.jpg"/>
+        <FILE id="QDEeSP" name="knob1Strip.png" compile="0" resource="1" file="Source/Assets/knob1Strip.png"/>
+        <FILE id="KLddpY" name="knob2Strip.png" compile="0" resource="1" file="Source/Assets/knob2Strip.png"/>
+        <FILE id="eWhTt4" name="LayoutOver.png" compile="0" resource="1" file="Source/Assets/LayoutOver.png"/>
+        <FILE id="JvbM5t" name="LayoutUnder.png" compile="0" resource="1" file="Source/Assets/LayoutUnder.png"/>
+        <FILE id="QTONmj" name="modDestLStrip.png" compile="0" resource="1"
+              file="Source/Assets/modDestLStrip.png"/>
+        <FILE id="wgQwaL" name="modDestRStrip.png" compile="0" resource="1"
+              file="Source/Assets/modDestRStrip.png"/>
+        <FILE id="VPLlvO" name="pole1.png" compile="0" resource="1" file="Source/Assets/pole1.png"/>
+        <FILE id="gB218o" name="pole2.png" compile="0" resource="1" file="Source/Assets/pole2.png"/>
+        <FILE id="JIjp9r" name="pole3.png" compile="0" resource="1" file="Source/Assets/pole3.png"/>
+        <FILE id="TBiPkC" name="pole4.png" compile="0" resource="1" file="Source/Assets/pole4.png"/>
+        <FILE id="OHU8ht" name="poleVoice.png" compile="0" resource="1" file="Source/Assets/poleVoice.png"/>
+        <FILE id="j2NMQn" name="sliderStrip.png" compile="0" resource="1" file="Source/Assets/sliderStrip.png"/>
+        <FILE id="IbOag8" name="sliderStripwBG.png" compile="0" resource="1"
+              file="Source/Assets/sliderStripwBG.png"/>
+      </GROUP>
+      <GROUP id="{44682EE6-F5CA-A28F-92BE-F4756B05F99F}" name="Audio">
+        <FILE id="OYDQzl" name="Obs_Envelope.cpp" compile="1" resource="0"
+              file="Source/Audio/Obs_Envelope.cpp"/>
+        <FILE id="Y024HC" name="Obs_Envelope.h" compile="0" resource="0" file="Source/Audio/Obs_Envelope.h"/>
+        <FILE id="uLlCqN" name="Obs_ModDestination.h" compile="0" resource="0"
+              file="Source/Audio/Obs_ModDestination.h"/>
+        <FILE id="NQDJ57" name="Obs_Modulator.cpp" compile="1" resource="0"
+              file="Source/Audio/Obs_Modulator.cpp"/>
+        <FILE id="z7XLoG" name="Obs_Modulator.h" compile="0" resource="0" file="Source/Audio/Obs_Modulator.h"/>
+        <FILE id="IhBDeX" name="Obs_Osc.cpp" compile="1" resource="0" file="Source/Audio/Obs_Osc.cpp"/>
+        <FILE id="TT0MzF" name="Obs_Osc.h" compile="0" resource="0" file="Source/Audio/Obs_Osc.h"/>
+        <FILE id="d0Oj2t" name="Obs_Pole.cpp" compile="1" resource="0" file="Source/Audio/Obs_Pole.cpp"/>
+        <FILE id="Ulkax6" name="Obs_Pole.h" compile="0" resource="0" file="Source/Audio/Obs_Pole.h"/>
+        <FILE id="JTuaMm" name="Obs_ZDFSVF.cpp" compile="1" resource="0" file="Source/Audio/Obs_ZDFSVF.cpp"/>
+        <FILE id="oLPAMs" name="Obs_ZDFSVF.h" compile="0" resource="0" file="Source/Audio/Obs_ZDFSVF.h"/>
+        <FILE id="NAFkam" name="PluginProcessor.cpp" compile="1" resource="0"
+              file="Source/Audio/PluginProcessor.cpp"/>
+        <FILE id="tG5P5P" name="PluginProcessor.h" compile="0" resource="0"
+              file="Source/Audio/PluginProcessor.h"/>
+        <FILE id="oKROdp" name="SmoothParam.h" compile="0" resource="0" file="Source/Audio/SmoothParam.h"/>
+        <FILE id="srBkTC" name="LineSlide.cpp" compile="1" resource="0" file="Source/Audio/LineSlide.cpp"/>
+        <FILE id="Vo8ewe" name="LineSlide.h" compile="0" resource="0" file="Source/Audio/LineSlide.h"/>
+      </GROUP>
+      <GROUP id="{8D642511-E6C0-BF2C-54EB-BF119DBBE20D}" name="GUI">
+        <FILE id="CxyZvP" name="Com_ModL.h" compile="0" resource="0" file="Source/GUI/Com_ModL.h"/>
+        <FILE id="V9p1CU" name="Com_ModR.cpp" compile="1" resource="0" file="Source/GUI/Com_ModR.cpp"/>
+        <FILE id="ADG1I9" name="Com_ModR.h" compile="0" resource="0" file="Source/GUI/Com_ModR.h"/>
+        <FILE id="lkJmVF" name="Com_Obser.cpp" compile="1" resource="0" file="Source/GUI/Com_Obser.cpp"/>
+        <FILE id="rJogoq" name="Com_Obser.h" compile="0" resource="0" file="Source/GUI/Com_Obser.h"/>
+        <FILE id="v4aPKi" name="Com_Osc.cpp" compile="1" resource="0" file="Source/GUI/Com_Osc.cpp"/>
+        <FILE id="kpotYG" name="Com_Osc.h" compile="0" resource="0" file="Source/GUI/Com_Osc.h"/>
+        <FILE id="fweyKr" name="FilmStripKnob.cpp" compile="1" resource="0"
+              file="Source/GUI/FilmStripKnob.cpp"/>
+        <FILE id="fXwx7S" name="FilmStripKnob.h" compile="0" resource="0" file="Source/GUI/FilmStripKnob.h"/>
+        <FILE id="kgjQAE" name="PluginEditor.cpp" compile="1" resource="0"
+              file="Source/GUI/PluginEditor.cpp"/>
+        <FILE id="omHVFb" name="PluginEditor.h" compile="0" resource="0" file="Source/GUI/PluginEditor.h"/>
+        <FILE id="DEQIe7" name="Com_ModL.cpp" compile="1" resource="0" file="Source/GUI/Com_ModL.cpp"/>
+      </GROUP>
+      <FILE id="Fq6bnC" name="common.h" compile="0" resource="0" file="Source/common.h"/>
+    </GROUP>
+  </MAINGROUP>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1" JUCE_VST3_CAN_REPLACE_VST2="0"/>
+  <EXPORTFORMATS>
+    <VS2019 targetFolder="Builds/VisualStudio2019">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="Observer"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="Observer"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_devices" path="C:/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="C:/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="C:/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="C:/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="C:/JUCE/modules"/>
+        <MODULEPATH id="juce_dsp" path="C:/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="C:/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="C:/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="C:/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="C:/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="C:/JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="C:/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="C:/JUCE/modules"/>
+      </MODULEPATHS>
+    </VS2019>
+    <VS2022 targetFolder="Builds/VisualStudio2022">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug"/>
+        <CONFIGURATION isDebug="0" name="Release" generateManifest="0"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_devices" path="C:\JUCE\modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="C:\JUCE\modules"/>
+        <MODULEPATH id="juce_audio_processors" path="C:\JUCE\modules"/>
+        <MODULEPATH id="juce_audio_utils" path="C:\JUCE\modules"/>
+        <MODULEPATH id="juce_data_structures" path="C:\JUCE\modules"/>
+        <MODULEPATH id="juce_dsp" path="C:\JUCE\modules"/>
+        <MODULEPATH id="juce_events" path="C:\JUCE\modules"/>
+        <MODULEPATH id="juce_graphics" path="C:\JUCE\modules"/>
+        <MODULEPATH id="juce_gui_basics" path="C:\JUCE\modules"/>
+        <MODULEPATH id="juce_audio_basics" path="C:/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="C:/JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="C:/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="C:/JUCE/modules"/>
+      </MODULEPATHS>
+    </VS2022>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_plugin_client" showAllCode="1" useLocalCopy="0"
+            useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_dsp" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+  <LIVE_SETTINGS>
+    <WINDOWS/>
+  </LIVE_SETTINGS>
+</JUCERPROJECT>
