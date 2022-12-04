@@ -6,3 +6,4 @@ This is the first synth I've coded, so bear with all the noob comments describin
 
 # Build
 The source can be compiled with JUCE: https://github.com/juce-framework/JUCE (latest version as of writing is 7.0.2)
+NOTE: The juce_audio_utils and juce_audio_devices modules are only necessary for compiling AU and standalone builds.
