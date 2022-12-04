@@ -13,6 +13,3 @@ constexpr auto nOfSmoothedParams = 6;
 //Dimensions of observer image data matrix
 constexpr auto observerWidth = 517;
 constexpr auto observerHeight = 335;
-
-//TODO Send to github; how do juce projects normally look?
-//TODO Preset manager
