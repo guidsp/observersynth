@@ -30,7 +30,7 @@ public:
 
 	/// Set travel time in ms. Remember to set the sampleRate before using this.
 	inline void setTime(const float& timeInMs) {
-		nSteps = timeInMs * sampleRateKhz;
+		nSteps = static_cast<float>(static_cast<int>(timeInMs * sampleRateKhz));
 	}
 
 	/// Setting this is mandatory before using setTime.
