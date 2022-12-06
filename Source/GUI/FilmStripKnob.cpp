@@ -50,5 +50,5 @@ void FilmStripKnob::valueChanged() {
     valueString.append(suffix, 10);
 
     //Get new film strip position
-    stripPos = valueToProportionOfLength(this->getValue()) * static_cast<double>(numFrames - 1);
+    stripPos = roundDoubleToInt(valueToProportionOfLength(this->getValue()) * static_cast<double>(numFrames - 1));
 }
