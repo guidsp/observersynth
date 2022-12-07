@@ -8,3 +8,6 @@ This is my first time coding a synth so bear with all the noob comments describi
 The source can be compiled with JUCE: https://github.com/juce-framework/JUCE (latest version as of writing is 7.0.2). The Projucer includes necessary modules.
 
 NOTE: The juce_audio_utils and juce_audio_devices modules are only necessary for compiling AU and standalone builds.
+
+# Video w/ sound
+https://user-images.githubusercontent.com/84092763/206265045-de866944-669c-4e7c-9844-09def903030e.mp4
