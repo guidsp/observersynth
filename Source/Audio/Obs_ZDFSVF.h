@@ -6,7 +6,7 @@ struct SampleData {
 		r = 0.0;
 };
 
-/// Zero delay state variable filter.
+/// State variable filter.
 class SVF {
 public:
 	SVF();
